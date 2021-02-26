@@ -7,8 +7,10 @@
 
 ## Production in AWS Elastic Beanstalk
 ![prod_mode](/images/multi-docker_prod.jpg)
-Uses Dockerrun.aws.json to deploy multi-container.
 
+- Uses Dockerrun.aws.json to deploy multi-container.
+
+Deployment process:
 1. Push code to Github
 2. Travis pulls repo
 3. Travis builds test image, tests code
