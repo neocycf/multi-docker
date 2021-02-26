@@ -1,3 +1,6 @@
+# Introduction
+Based on Stephen Grider's course. To deploy a react app using docker in AWS Elastic Beanstalk.
+
 ## Development mode
 ![dev_mode](/images/multi-docker_dev.jpg)
 
