@@ -5,9 +5,9 @@
 - uses Dockerfile.dev
 - uses react server default port 3000 to serve dev web server
 
-## Deploy multi container to AWS Elastic Beanstalk
-
-Uses Dockerrun.aws.json for EB container definition
+## Production in AWS Elastic Beanstalk
+![prod_mode](/images/multi-docker_prod.jpg)
+Uses Dockerrun.aws.json to deploy multi-container.
 
 1. Push code to Github
 2. Travis pulls repo
